@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/fixed_header">
+
+        <EditTextPreference
+            app:key="TimeBehind"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            app:title="@string/fixed_time"
+            app:defaultValue="5"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/vs_header">
+
+        <EditTextPreference
+            app:key="DistBehind"
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            app:title="@string/vs_dist"
+            app:defaultValue="6"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/general_header">
+
+        <ListPreference
+            app:defaultValue="@string/phone_language"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="language"
+            app:title="@string/language_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

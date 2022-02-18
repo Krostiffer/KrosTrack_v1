@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">KrosTrack</string>
+    <string name="title_run">Run</string>
+    <string name="title_routes">History</string>
+    <string name="Go_Button">Start</string>
+    <string name="Hours">Hours</string>
+    <string name="Minutes">Minutes</string>
+    <string name="Seconds">Seconds</string>
+    <string name="InputText">Set your speed</string>
+    <string name="run_vs_self">Run vs a recorded track</string>
+    <string name="run_vs_time">Run vs a fixed Speed</string>
+    <string name="notification_setting_name_background_tracking">Background Location Tracking</string>
+    <string name="stop_running">Stop</string>
+    <string name="title_activity_show_maps">Map</string>
+    <string name="permissionNotGranted">Location Permission was not granted</string>
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+
+    <string name="just_run_nothing_else">Just run, no speed check, just tracking the route</string>
+    <string name="track_too_short_warning">Too short to be tracked</string>
+    <string name="select_something_warning">Select a recorded track to start</string>
+    <string name="something_went_wrong_warning">Somthing went wrong</string>
+    <string name="behind">behind</string>
+    <string name="ahead">ahead</string>
+    <string name="alreadyFinished">(record already finished)</string>
+    <!-- Preference Titles -->
+    <string name="fixed_header">Fixed Speed</string>
+    <string name="general_header">General</string>
+
+    <!-- Messages Preferences -->
+    <string name="fixed_time">Maximum Time under set speed (seconds)</string>
+    <string name="language_title">Language</string>
+
+    <!-- Sync Preferences -->
+    <string name="help">Help</string>
+    <string name="Settings">Settings</string>
+    <string name="location_not_enabled">Location not enabled</string>
+    <string name="turn_location_on">Turn on Location or GPS on your device. Without location access the app won\'t work.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="vs_dist">Maximum distance behind record (meters)</string>
+    <string name="vs_header">Vs Recording Run</string>
+    <string name="phone_language">Phone language</string>
+    <string name="choose_valid_number">Choose a valid number</string>
+    <string name="helpPageText_fixed">While running, the app constantly checks your current speed against the set speed. If you are below it for a certain amount of time (You can set this in the Settings Menu), your phone will start to vibrate to indicate that you are too slow.</string>
+    <string name="helpPageText_vs">While running the app constantly checks the distance that you traveled against the distance that the recording traveled in the same time. If you are a certain distance behind the recording (You can set this in the Settings Menu) your phone will start to vibrate to indicate that you are too slow.</string>
+    <string name="helpPageText_justRun">No checking against anything, just tracking the route you run, so you can run against it in the future.</string>
+    <string name="helpPageText_History">Just a list of all routes you ran before. Click on one of it to see the route on a map.</string>
+    <string name="helpPageText_Credits">The app, as well as all icons were created by Kristoffer Borrmann</string>
+    <string name="just_run_short">Just run</string>
+    <string name="helpPageText_allModesTrack">All modes are tracking the route you run, so you can run against it in the future.</string>
+    <string name="credits">Credits</string>
+    <string name="delete">Delete</string>
+    <string name="abort">Abort</string>
+</resources>

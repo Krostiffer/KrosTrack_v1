@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_routes">Verlauf</string>
+    <string name="Go_Button">Start</string>
+    <string name="Hours">Stunden</string>
+    <string name="Minutes">Minuten</string>
+    <string name="Seconds">Sekunden</string>
+    <string name="InputText">Stell deine Geschwindigkeit ein</string>
+    <string name="run_vs_self">Laufe gegen eine vorher aufgezeichnete Strecke</string>
+    <string name="run_vs_time">Laufe gegen eine feste Geschwindigkeit</string>
+    <string name="notification_setting_name_background_tracking">Hintergrundortung</string>
+    <string name="stop_running">Stop</string>
+    <string name="permissionNotGranted">Standort Berechtigung wurde nicht zugelassen</string>
+    <string name="title_activity_show_maps">Karte</string>
+    <string name="just_run_nothing_else">Einfach laufen, es gibt keinen Geschwindigkeitscheck, nur Tracking der Route</string>
+    <string name="title_run">Laufen</string>
+    <string name="track_too_short_warning">Zu kurz um aufgezeichnet zu werden</string>
+    <string name="select_something_warning">Wähle eine aufgezeichnete Strecke aus um loszulegen</string>
+    <string name="something_went_wrong_warning">Etwas ist schiefgelaufen</string>
+    <string name="behind">hinten</string>
+    <string name="ahead">vorne</string>
+    <string name="alreadyFinished">(Aufzeichnung bereits durch)</string>
+    <string name="help">Hilfe</string>
+    <string name="Settings">Einstellungen</string>
+    <string name="location_not_enabled">Standortermittlung nicht aktiv</string>
+    <string name="turn_location_on">Aktiviere Standort oder GPS auf deinem Gerät. Ohne Standort funktioniert die App nicht.</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="fixed_header">Feste Geschwindigkeit</string>
+    <string name="general_header">Allgemein</string>
+    <string name="fixed_time">Maximale Zeit unter eingestellter Geschwindigkeit (in Sekunden)</string>
+    <string name="vs_header">Gegen Aufzeichnung Laufen</string>
+    <string name="vs_dist">Maximale Distanz hinter der Aufzeichnung (in Metern)</string>
+    <string name="phone_language">Sprache des Telefons</string>
+    <string name="language_title">Sprache</string>
+    <string name="choose_valid_number">Wähle eine valide Zahl aus</string>
+    <string name="helpPageText_fixed">Während des Laufens vergleicht die App ständig deine momentane Geschwindigkeit mit der eingestellten Geschwindigkeit. Wenn du dich für eine bestimmte Zeit darunter befindst (Du kannst die Zeit im Einstellungsmenü einstellen), beginnt dein Gerät zu vibrieren, um anzuzeigen, dass du zu langsam bist.</string>
+    <string name="helpPageText_vs">Während des Laufens vergleicht die App ständig deine zurückgelegte Strecke mit der Strecke, die die Aufnahme in derselben Zeit zurückgelegt hat. Wenn du eine gewisse Distanz hinter der Aufnahme bist (Du kannst die Distanz im Einstellungsmenü einstellen) beginnt dein Gerät zu vibrieren, um anzuzeigen, dass du zu langsam bist.</string>
+    <string name="helpPageText_justRun">Kein Vergleich mit irgendetwas. Es wird nur die Route aufgezeichnet.</string>
+    <string name="helpPageText_History">Eine Liste aller Routen, die du gelaufen bist. Klick auf eine davon, um die Route auf einer Karte anzuzeigen.</string>
+    <string name="helpPageText_Credits">Die App, sowie alle Icons wurden von Kristoffer Borrmann erstellt</string>
+    <string name="just_run_short">Einfach laufen</string>
+    <string name="helpPageText_allModesTrack">Alle Modi zeichnen deine gelaufene Route auf, damit du sie ansehen und in Zukunft dagegen laufen kannst.</string>
+    <string name="credits">Credits</string>
+    <string name="delete">Löschen</string>
+    <string name="abort">Abbrechen</string>
+</resources>
